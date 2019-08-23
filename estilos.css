@@ -67,13 +67,13 @@ header{
 
 /*------------------------Section---------*/
 section{
-    padding:30px 100px;
+    padding:30px 300px;
 }
 .producto_principal{
     background: white;
     display:inline-block;
     width: 25%;
-    height:300px;
+    height:400px;
     border:1px solid rgba(0, 0, 0, 0.219);
     border-radius: 10px;
     margin:10px;
