@@ -14,23 +14,25 @@ header{
 
 
 .buscador{
+    position: relative;
     font-size: 14px;
-    position:relative;
-    left:50%;
-    transform: translate(-85%,55%);
+    left:5%;
     width: 50%;
-    height: 40px;
+    height: 35px;
     border:none;
     outline:none;
     border:1px solid rgba(0, 0, 0, 0.281);
     border-radius: 5px;
     padding-left: 10px;
-    margin:0px 0px;
+    box-sizing: border-box;
 }
+
 .logo{
-    float:left;
-    margin:10px 5px;
+    width: 15%;
+    display: inline;
+    margin:15px 2.5%;
 }
+
 .btn_sesion, .btn_registro{
     float: right;
     color:rgb(255, 255, 255);
@@ -67,16 +69,17 @@ header{
 
 /*------------------------Section---------*/
 section{
-    padding:30px 400px;
+    width: 80%;
+    margin:30px 10%;
 }
 .producto_principal{
     background: white;
     display:inline-block;
-    width: 30%;
-    height:400px;
+    width: 23.7%;
+    height:350px;
     border:1px solid rgba(0, 0, 0, 0.219);
     border-radius: 10px;
-    margin:10px;
+    margin:10px 0.5%;
     padding:10px;
 }
 
@@ -89,7 +92,7 @@ section{
 }
 .img_producto{
     width: 100%;
-    height:250px;
+    height:200px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.281);
     margin-bottom: 5px;
 }
